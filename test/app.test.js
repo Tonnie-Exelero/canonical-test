@@ -9,7 +9,7 @@ describe("Calculator", function () {
 
   it("calculates addition", function () {
     let result = calculator.calculate("+ 3 4");
-    return assert.equal(result, 3 + 4);  // 7
+    return assert.equal(result, 3 + 4); // 7
   });
 
   it("calculates subtraction and multiplication", function () {
